@@ -1,6 +1,1 @@
-
-import { NativeModules } from 'react-native';
-
-const { RNIBeaconMonitoring } = NativeModules;
-
-export default RNIBeaconMonitoring;
+export * from './js/index';
